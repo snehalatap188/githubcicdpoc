@@ -24,6 +24,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '6'                 # set this to the .NET Core version to use
   DOTNET_ROOT: 'githubcicdpoc'
+  AZURE_WEBAPP_PUBLISH_PROFILE: 'Csb1gQ75Wk36Jq8eovSaPYzfuSDaZ65kNHREldjc9Ktj42MxBitzRbjtCiCL'
 
 on:
   push:
